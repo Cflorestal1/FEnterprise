@@ -1,0 +1,38 @@
+header, footer {
+	background:url('../../img/bg/gray2.jpg');
+}
+
+header {
+	height: 500px;
+}
+
+footer {
+	height: 100px;
+}
+
+footer div div {
+	color: white;
+	margin: 20px 0px 0px 10px;
+	padding: 5px;
+}
+
+.logo {
+	color: white;
+	margin-left: -40px;
+}
+
+.nav-item a {
+	margin: 5px;
+	padding: 10px;
+}
+
+.nav-item a span {
+	color: white;
+	text-shadow: 1px 2px 2px black;
+}
+
+.nav-item a span:hover {
+	color: gray;
+	cursor: pointer;
+}
+
