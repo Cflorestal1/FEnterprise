@@ -3,7 +3,7 @@
 	
 	$contact = [
 
-		'title' => 'FlEnterprise - Contact'
+		'title' => 'Contact'
 	];
 
 	echo $twig->render('contact.html',['contact' => $contact]);

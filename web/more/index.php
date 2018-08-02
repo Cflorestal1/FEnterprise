@@ -2,7 +2,7 @@
 	include '../loader.php';
 	
 	$more = [
-		'title' => 'FlEnterprise - More'
+		'title' => 'More'
 	];
 
 	echo $twig=>render('more.html', ['more' => $more]);

@@ -1,0 +1,23 @@
+.gal-container {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+
+}
+
+.sub-title {
+	color: white;
+	font-family: sans-serif;
+	font-size: 24px;
+}
+
+.section-title {
+	margin: auto;
+}
+
+.slide-container {
+
+	height: 50px;
+	width: 100%;
+	background-color: yellow;
+}

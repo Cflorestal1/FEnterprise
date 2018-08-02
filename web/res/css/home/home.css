@@ -1,9 +1,11 @@
 
 section {
 	background-color: white;
-	height: 300px;
+	height: 600px;
 }
 
-
-
+.left {
+	background-color: black;
+	height: 100%;
+}
 

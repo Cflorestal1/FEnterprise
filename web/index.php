@@ -5,4 +5,4 @@
 		'title' => 'Florestal Enterprise'
 	];
 	
-	echo $twig->render('home.html',['home' => $home ]);
+	echo $twig->render('contact.html',['home' => $home ]);
