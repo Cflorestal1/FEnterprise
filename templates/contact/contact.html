@@ -9,7 +9,44 @@
 {% endblock %}
 {% block content %}
 	<div class="contact-container">
-		<div>HELLOWORLD</div>	
+	<div class="row">
+		<div class="info-panel col-lg-6 col-sm-12">
+			<img class="col-3 offset-5" src=""/>
+			<p class="info col-9 offset-3">
+				Owner & Operator: Charles Florestal</br>
+				Email: Florestal.cw@gmail.com</br>
+				Phone: 561-508-8897</br>
+				Hours: Monday-Saturday 7am-7pm</br>	
+			</p>
+		</div>	
+		<div class="contact-panel col-lg-6 col-sm-12">
+			<form>
+				<div class="container">
+					<div class="row">
+						<div class="form-group col-sm-12 col-lg-6">
+							<label for="firstname">First name: <span class="required">*</span></label>
+							<input name="firstname" class="form-control" type="text" />
+						</div>
+						<div class="form-group col-sm-12 col-lg-6">
+							<label for="lastname">Last name: <span class="required">*</span></label>
+							<input name="lastname" class="form-control" type="text"/>
+						</div>
+						<div class="form-group col-lg-12">
+							<label for="email">Email: <span class="required">*</span></label>
+							<input name="email"  class="form-control" type="email"/>
+						</div>
+						<div class="form-group col-lg-12">
+							<label for="details">Details: <span class="required">*</span></label>
+							<textarea name="details" class="form-control" rows="4"></textarea>
+						</div>
 
-	<div>
+						<div class="col-2 offset-lg-10">
+							<input  class="btn" type="submit" name="send" value="SEND">
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>	
+	</div>
 {% endblock %}
