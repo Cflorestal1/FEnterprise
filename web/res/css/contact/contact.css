@@ -53,6 +53,10 @@ img {
 	font-family: sans-serif;
 }
 
+.info span {
+	color: black;
+}
+
 
 @media only screen and (max-width: 992px) {
 
