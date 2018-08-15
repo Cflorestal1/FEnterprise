@@ -5,4 +5,28 @@
 		'title' => 'Florestal Enterprise'
 	];
 	
-	echo $twig->render('contact.html',['home' => $home ]);
+
+	$pv = [
+		'pv1' => [
+			'title' => '',
+			'path' => '',
+			'price' => ''
+		],
+		'pv2' => [
+			'title' => '',
+			'path' => '',
+			'price' => ''
+		], 
+		'pv3' => [
+			'title' => '',
+			'path' => '',
+			'price' => ''
+		],
+		'pv4' => [
+			'title' => '',
+			'path' => '',
+			'price' => ''
+		]
+	];
+	
+	echo $twig->render('home.html',['home' => $home ]);
