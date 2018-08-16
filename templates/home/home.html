@@ -11,10 +11,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="left col-lg-6 col-sm-12">
-					<button class="m-btn">Click</button>
-
+					<div class="intro-msg">
+						<p class="font color bold text-center h5">Whether it is to improve your home looks, increase the value of your home, prevent future damages, prepare for painting, or even  satisfy HOA requirements. Pressure cleaning is one of the simplest and most effortable way to do so. If you are looking to get a pressure cleaning job done, contact us here at Florestal Enterprise. We provide excellent quality work for reasonable cost.</p>
+					</div>
 				</div>
-				<div class="right col-lg-6 col-sm-12"></div>
+				<div class="right col-lg-6 col-sm-12">
+					<div class="intro-img">
+						<div class="img-sh">
+							<img src="../web/res/img/intro/pw.jpg"/>	
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section> 
@@ -28,41 +35,48 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-6 col-sm-12 pr ">
-					<div class="pv bx-sh">
+					<div id="pv-roof" class="pv bx-sh">
 						<div class="pv-header">
-							<div class="label"><h3 class="text-center bold color">Roof</h3></div>
+							<div class="label"><h3 class="text-center tx-sh bold yellow">Roof</h3></div>
 						</div>
 						<div class="pv-body">
 							<div class="pv-pic">
-								<img  src=""/>
+								<img class="pv-img" src="../web/res/img/pv/roof/roof.jpg"/>
 							</div>
-							<div class="pv-tail"></div>
+							<div class="pv-tail">
+								<p class="white font h4 text-center"> Starting as <span class="bold cursive">LOW</span> as <span class="yellow bold font tx-sh italic h1">$150</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 pr ">
+				
+					<div id="pv-wall" class="pv bx-sh">
+						<div class="pv-header">
+							<div class="label"><h3 class="text-center tx-sh bold yellow">Walls</h3></div>
+						</div>
+						<div class="pv-body">
+							<div class="pv-pic">
+								<img class="pv-img" src="../web/res/img/pv/wall/wall.jpg" />
+							</div>
+							<div class="pv-tail">
+								<p class="white font h4 text-center"> Starting as <span class="bold cursive">LOW</span> as <span class="yellow bold tx-sh font italic h1">$100</span></p>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-12 pr">
-					<div class="pv bx-sh">
+					<div id="pv-dw" class="pv bx-sh">
 						<div class="pv-header">
-							<div class="label"><h3 class="text-center bold color">Walls</h3></div>
+							<div class="label"><h3 class="text-center tx-sh bold yellow">Driveway</h3></div>
 						</div>
 						<div class="pv-body">
 							<div class="pv-pic">
-								<img src="" />
+								<img class="pv-img" src="../web/res/img/pv/dw/dw.jpg" />
 							</div>
-							<div class="pv-tail"></div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 pr">
-					<div class="pv bx-sh">
-						<div class="pv-header">
-							<div class="label"><h3 class="text-center bold color">Driveway</h3></div>
-						</div>
-						<div class="pv-body">
-							<div class="pv-pic">
-								<img src="" />
+							<div class="pv-tail">
+								<p class="white font h4 text-center"> Starting as <span class="bold cursive">LOW</span> as <span class="yellow tx-sh bold italic font h1">$50</span></p>
 							</div>
-							<div class="pv-tail"></div>
 						</div>
 					</div>
 				</div>
@@ -71,6 +85,21 @@
 	</section>
 {% endblock %}
 
+{% block modal %}
+	<div class="col-12">
+		<div class="label"><h3 class="text-center tx-sh bold blue ">Example/Preview 1</h3></div>
+		<div id="img1" class="md-img">
+			<img  class="img-responsive" src=""/>
+		</div>
+	</div>
+	<div class="col-12">
+		<div class="label"><h3 class="text-center tx-sh bold blue">Example/Preview 2</h3></div>
+		<div id="img2" class="md-img">
+			<img class="img-responsive" src="">
+		</div>
+	</div>
+{% endblock %}
+
 {% block scripts %}
-	<script></script>
+	<script src="../web/res/js/home/home.js"></script>
 {% endblock %}

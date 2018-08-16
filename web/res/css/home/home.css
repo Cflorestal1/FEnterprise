@@ -1,7 +1,30 @@
 
 section {
 	background-color: white;
-	min-height: 600px;
+	min-height: 500px;
+}
+
+.intro-msg, .intro-img  {
+	max-width: 400px;
+	padding: 80px 20px 20px 20px;
+	margin: auto !important;
+}
+
+
+.intro-img {
+	height: 400px;
+}
+
+.img-sh {
+	width: 100%;
+	height: 100%;
+}
+
+.img-sh img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 5px solid #20c3ff;
 }
 
 .section-title p {
@@ -36,10 +59,11 @@ section {
 	height: 400px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	background-color: white;
+	background-color: #20c3ff;
 	border: 1px solid #bcb4c4;
 	border-radius: 8px;
 	overflow: hidden;
+	cursor: pointer;
 }
 
 .pv-header
@@ -48,20 +72,41 @@ section {
 }
 
 .pv-body {
-	border-top: 1px solid #bcb4c4;
+	border-top: 1px isolid #bcb4c4;
 	height: 85%;
 }
 
 .pv-pic {
 	height: 65%;
+	overflow: hidden;
+	background-color: white;
 }
+
+.pv-img {
+	width: 95%;
+	height: 95%;
+	margin-top: 5px;
+	margin-left: 8px;
+}
+
 .pv-tail {
 	border-top: 1px solid #bcb4c4;
 	height: 20%;
 }
 
-.bx-sh {
-	box-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+.pv-tail p {
+	width: 70%;
+	margin: 5px auto;
+}
+
+.md-img {
+	width: 100%;
+	height: 300px;
+}
+
+.md-img img {
+	width: 100%;
+	height: 100%;
 }
 
 .label {
@@ -93,7 +138,5 @@ section {
 		margin-right: auto !important;
 		margin-top: 10px !important;
 		margin-bottom: 10px !important;
-	
-i
 	}
 }

@@ -21,7 +21,7 @@
 	top: 9%;
 	left: 25%;
 	width: 50%;
-	height: 700px;
+	height: 780px;
 	background-color: white;
 	overflow: hidden;
 	border-radius: 10px;
@@ -29,6 +29,7 @@
 	padding: 5px 20px 0px 20px;
 	z-index: 1;
 }
+
 
 .exit {
 	font-size: 24px !important;
