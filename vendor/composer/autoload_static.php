@@ -21,6 +21,10 @@ class ComposerStaticInitc380d397935907db8382f4d8424c4e2e
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
         ),
+        'D' => 
+        array (
+            'Doctrine\\Common\\Annotations\\' => 28,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -36,6 +40,10 @@ class ComposerStaticInitc380d397935907db8382f4d8424c4e2e
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
+        'Doctrine\\Common\\Annotations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -44,6 +52,13 @@ class ComposerStaticInitc380d397935907db8382f4d8424c4e2e
             'Twig_' => 
             array (
                 0 => __DIR__ . '/..' . '/twig/twig/lib',
+            ),
+        ),
+        'D' => 
+        array (
+            'Doctrine\\Common\\Lexer\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
             ),
         ),
     );

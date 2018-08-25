@@ -17,28 +17,24 @@
 	</head>
 	<body>
 		<header>
-			{% block header %}
-				<nav class="navbar navbar-expand-lg navbar-light fixed-top " id="mainNav">
-					<div class="container">
-						<a class="navbar-brand js-scroll-trigger" href="#page-top">
-							<div class="logo h3"><img class="logo-img" src="../web/res/img/Web3.png"/></div>
-						</a>
-						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-							Menu
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse">
-							<ul class="navbar-nav ml-auto">
-								<li class="nav-item">
-									<a href="../web/" class="nav-link js-scroll-trigger"><span class="h5">Home</span></a>
-								</li>
-								<li class="nav-item">
-									<a href="../web/contact/" class="nav-link js-scroll-trigger"><span class="h5">Contact</span></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav>
+			{% block header %}		
+			<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+			  <a class="navbar-brand color" href="#"><div class="logo"><img  class="logo-img" src="../web/res/img/Web3.png"/></div></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="black nav-b">Menu </span><span class="navbar-toggler-icon nav-b"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item active nav-h">
+					<a class="nav-link" href="#"><span class="h5 font nav-b">Home</span></a>
+				  </li>
+				  <li class="nav-item nav-h">
+					<a class="nav-link" href="#"><span class="h5 font nav-b">Contact</span></a>
+				  </li>
+				</ul>
+			  </div>
+			</nav>
 			{% endblock %}
 		</header>
 		{% block content %}{% endblock %}

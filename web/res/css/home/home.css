@@ -56,7 +56,7 @@ section {
 
 
 .pv {
-	height: 400px;
+	height: 500px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background-color: #20c3ff;
@@ -113,6 +113,10 @@ section {
 	margin: 15px auto;
 }
 
+
+.nav-link {
+	text-align: right;
+}
 
 #preview {
 	background-color: white;

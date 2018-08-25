@@ -44,6 +44,17 @@ nav ul {
 	cursor: pointer;
 }
 
+.nav-b {
+	font-weight: bold;
+}
+.nav-p {
+	padding: 5px;
+}
+
+.nav-link {
+	text-align: right;
+}
+
 
 .required {
 	color: red;
@@ -55,6 +66,9 @@ nav ul {
 
 .color {
 	color: #bcb4c4;
+}
+.red {
+	color: red;
 }
 
 .yellow {
@@ -69,10 +83,21 @@ nav ul {
 	color: white;
 }
 
-.font {
-	font-family: sans-serif;
+.black {
+	color: black;
 }
 
+.font {
+	font-family:'Comic Sans Ms',sans-serif;
+}
+
+.m-auto {
+	margin: auto;
+}
+
+.p-top {
+	padding-top: 15px; 
+}
 
 .text-center {
 	text-align: center !important;
@@ -94,11 +119,32 @@ nav ul {
 	font-family: "Comic Sans MS", sans-serif;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px){
+	
+	.nav-h:hover {
+		color: #998b87;
+		opacity: 0.2;
+		filter: Alpha(opacity=20);
+	}
 
+	.nav-item a span {
+		color: black;
+	}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+	.logo-img {
+		width: 318px;
+		max-height: 100px;
+	}
 }
 
 @media only screen and (max-width: 576px ){
 
-
+	.logo-img {
+		width: 212px;
+		max-height: 80px;
+	}
 }
